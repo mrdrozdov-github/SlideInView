@@ -17,6 +17,8 @@ Included are simple demos, most of which emulate the style you'd see in ALAlertB
 
 # Demos
 
+<img src="http://f.cl.ly/items/2u0A2X1t0B3000160W21/SlideInViewDemo.mov.gif" width="200px"/>
+
 Currently all included in the same video.
 
 1. View with Button
@@ -26,4 +28,3 @@ Currently all included in the same video.
 1. ALAlertBannerStyleNotify
 1. Stacking Views
 
-<img src="http://f.cl.ly/items/2u0A2X1t0B3000160W21/SlideInViewDemo.mov.gif" width="200px" style="margin-left: auto; margin-right: auto;"/>
