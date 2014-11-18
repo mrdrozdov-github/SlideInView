@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -16,8 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs5-cN-4Lo">
+                                <rect key="frame" x="271" y="247" width="59" height="30"/>
+                                <state key="normal" title="Success">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="successButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YiY-eN-EHy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXR-iR-g05">
+                                <rect key="frame" x="277" y="323" width="46" height="30"/>
+                                <state key="normal" title="Failure">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="failureButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pjv-xT-nUn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUf-Sf-csM">
+                                <rect key="frame" x="280" y="361" width="41" height="30"/>
+                                <state key="normal" title="Notify">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="notifyButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXm-Bb-EEl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kr-wP-5Cn">
+                                <rect key="frame" x="272" y="285" width="57" height="30"/>
+                                <state key="normal" title="Warning">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="warningButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UK9-ui-sjd"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODs-ey-ypn">
-                                <rect key="frame" x="280" y="285" width="41" height="30"/>
+                                <rect key="frame" x="280" y="209" width="41" height="30"/>
                                 <state key="normal" title="Demo">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -28,8 +64,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ODs-ey-ypn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2DU-5I-f8D"/>
-                            <constraint firstItem="ODs-ey-ypn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QD9-ms-JfE"/>
+                            <constraint firstItem="3Kr-wP-5Cn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2SR-OS-TgR"/>
+                            <constraint firstItem="ODs-ey-ypn" firstAttribute="centerX" secondItem="Bs5-cN-4Lo" secondAttribute="centerX" id="6IN-re-t1A"/>
+                            <constraint firstItem="Bs5-cN-4Lo" firstAttribute="top" secondItem="ODs-ey-ypn" secondAttribute="bottom" constant="8" symbolic="YES" id="6hD-eJ-gfm"/>
+                            <constraint firstItem="jXR-iR-g05" firstAttribute="top" secondItem="3Kr-wP-5Cn" secondAttribute="bottom" constant="8" symbolic="YES" id="N84-Pg-4ko"/>
+                            <constraint firstItem="GUf-Sf-csM" firstAttribute="top" secondItem="jXR-iR-g05" secondAttribute="bottom" constant="8" symbolic="YES" id="P8o-0Y-ywI"/>
+                            <constraint firstItem="3Kr-wP-5Cn" firstAttribute="top" secondItem="Bs5-cN-4Lo" secondAttribute="bottom" constant="8" symbolic="YES" id="abE-cz-yia"/>
+                            <constraint firstItem="ODs-ey-ypn" firstAttribute="leading" secondItem="GUf-Sf-csM" secondAttribute="leading" id="eHZ-b6-mbx"/>
+                            <constraint firstItem="Bs5-cN-4Lo" firstAttribute="centerX" secondItem="3Kr-wP-5Cn" secondAttribute="centerX" id="l2o-oR-QFX"/>
+                            <constraint firstItem="3Kr-wP-5Cn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vHX-b4-qMk"/>
+                            <constraint firstItem="jXR-iR-g05" firstAttribute="centerX" secondItem="3Kr-wP-5Cn" secondAttribute="centerX" id="wmI-Lx-HRd"/>
                         </constraints>
                     </view>
                 </viewController>

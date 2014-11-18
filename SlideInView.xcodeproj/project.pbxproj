@@ -15,7 +15,16 @@
 		9F499D1E1A16BC960032FECE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F499D1C1A16BC960032FECE /* LaunchScreen.xib */; };
 		9F499D2A1A16BC960032FECE /* SlideInViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F499D291A16BC960032FECE /* SlideInViewTests.m */; };
 		9F499D381A16BCBA0032FECE /* SlidingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F499D351A16BCBA0032FECE /* SlidingViewManager.m */; };
-		9F499D391A16BCBA0032FECE /* CallbackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F499D371A16BCBA0032FECE /* CallbackButton.m */; };
+		9FC9E1681A1AE6EA00FCD713 /* ALAlertBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9E15C1A1AE6EA00FCD713 /* ALAlertBanner.m */; };
+		9FC9E1691A1AE6EA00FCD713 /* ALAlertBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9E15E1A1AE6EA00FCD713 /* ALAlertBannerManager.m */; };
+		9FC9E16A1A1AE6EA00FCD713 /* bannerAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1601A1AE6EA00FCD713 /* bannerAlert.png */; };
+		9FC9E16B1A1AE6EA00FCD713 /* bannerAlert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1611A1AE6EA00FCD713 /* bannerAlert@2x.png */; };
+		9FC9E16C1A1AE6EA00FCD713 /* bannerFailure.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1621A1AE6EA00FCD713 /* bannerFailure.png */; };
+		9FC9E16D1A1AE6EA00FCD713 /* bannerFailure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1631A1AE6EA00FCD713 /* bannerFailure@2x.png */; };
+		9FC9E16E1A1AE6EA00FCD713 /* bannerNotify.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1641A1AE6EA00FCD713 /* bannerNotify.png */; };
+		9FC9E16F1A1AE6EA00FCD713 /* bannerNotify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1651A1AE6EA00FCD713 /* bannerNotify@2x.png */; };
+		9FC9E1701A1AE6EA00FCD713 /* bannerSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1661A1AE6EA00FCD713 /* bannerSuccess.png */; };
+		9FC9E1711A1AE6EA00FCD713 /* bannerSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9E1671A1AE6EA00FCD713 /* bannerSuccess@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +53,19 @@
 		9F499D291A16BC960032FECE /* SlideInViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideInViewTests.m; sourceTree = "<group>"; };
 		9F499D341A16BCBA0032FECE /* SlidingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewManager.h; sourceTree = "<group>"; };
 		9F499D351A16BCBA0032FECE /* SlidingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewManager.m; sourceTree = "<group>"; };
-		9F499D361A16BCBA0032FECE /* CallbackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallbackButton.h; path = ../CallbackButton.h; sourceTree = "<group>"; };
-		9F499D371A16BCBA0032FECE /* CallbackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallbackButton.m; path = ../CallbackButton.m; sourceTree = "<group>"; };
+		9FC9E15A1A1AE6EA00FCD713 /* ALAlertBanner+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAlertBanner+Private.h"; sourceTree = "<group>"; };
+		9FC9E15B1A1AE6EA00FCD713 /* ALAlertBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBanner.h; sourceTree = "<group>"; };
+		9FC9E15C1A1AE6EA00FCD713 /* ALAlertBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBanner.m; sourceTree = "<group>"; };
+		9FC9E15D1A1AE6EA00FCD713 /* ALAlertBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBannerManager.h; sourceTree = "<group>"; };
+		9FC9E15E1A1AE6EA00FCD713 /* ALAlertBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBannerManager.m; sourceTree = "<group>"; };
+		9FC9E1601A1AE6EA00FCD713 /* bannerAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerAlert.png; sourceTree = "<group>"; };
+		9FC9E1611A1AE6EA00FCD713 /* bannerAlert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerAlert@2x.png"; sourceTree = "<group>"; };
+		9FC9E1621A1AE6EA00FCD713 /* bannerFailure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerFailure.png; sourceTree = "<group>"; };
+		9FC9E1631A1AE6EA00FCD713 /* bannerFailure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerFailure@2x.png"; sourceTree = "<group>"; };
+		9FC9E1641A1AE6EA00FCD713 /* bannerNotify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerNotify.png; sourceTree = "<group>"; };
+		9FC9E1651A1AE6EA00FCD713 /* bannerNotify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerNotify@2x.png"; sourceTree = "<group>"; };
+		9FC9E1661A1AE6EA00FCD713 /* bannerSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerSuccess.png; sourceTree = "<group>"; };
+		9FC9E1671A1AE6EA00FCD713 /* bannerSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerSuccess@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +89,7 @@
 		9F499D011A16BC960032FECE = {
 			isa = PBXGroup;
 			children = (
+				9FC9E1591A1AE6EA00FCD713 /* ALAlertBanner */,
 				9F499D331A16BCA30032FECE /* Classes */,
 				9F499D0C1A16BC960032FECE /* SlideInView */,
 				9F499D261A16BC960032FECE /* SlideInViewTests */,
@@ -88,7 +109,6 @@
 		9F499D0C1A16BC960032FECE /* SlideInView */ = {
 			isa = PBXGroup;
 			children = (
-				9F499D3A1A16BDDA0032FECE /* CustomUI */,
 				9F499D111A16BC960032FECE /* AppDelegate.h */,
 				9F499D121A16BC960032FECE /* AppDelegate.m */,
 				9F499D141A16BC960032FECE /* ViewController.h */,
@@ -133,16 +153,35 @@
 				9F499D341A16BCBA0032FECE /* SlidingViewManager.h */,
 				9F499D351A16BCBA0032FECE /* SlidingViewManager.m */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		9F499D3A1A16BDDA0032FECE /* CustomUI */ = {
+		9FC9E1591A1AE6EA00FCD713 /* ALAlertBanner */ = {
 			isa = PBXGroup;
 			children = (
-				9F499D361A16BCBA0032FECE /* CallbackButton.h */,
-				9F499D371A16BCBA0032FECE /* CallbackButton.m */,
+				9FC9E15A1A1AE6EA00FCD713 /* ALAlertBanner+Private.h */,
+				9FC9E15B1A1AE6EA00FCD713 /* ALAlertBanner.h */,
+				9FC9E15C1A1AE6EA00FCD713 /* ALAlertBanner.m */,
+				9FC9E15D1A1AE6EA00FCD713 /* ALAlertBannerManager.h */,
+				9FC9E15E1A1AE6EA00FCD713 /* ALAlertBannerManager.m */,
+				9FC9E15F1A1AE6EA00FCD713 /* Images */,
 			);
-			name = CustomUI;
+			path = ALAlertBanner;
+			sourceTree = "<group>";
+		};
+		9FC9E15F1A1AE6EA00FCD713 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9FC9E1601A1AE6EA00FCD713 /* bannerAlert.png */,
+				9FC9E1611A1AE6EA00FCD713 /* bannerAlert@2x.png */,
+				9FC9E1621A1AE6EA00FCD713 /* bannerFailure.png */,
+				9FC9E1631A1AE6EA00FCD713 /* bannerFailure@2x.png */,
+				9FC9E1641A1AE6EA00FCD713 /* bannerNotify.png */,
+				9FC9E1651A1AE6EA00FCD713 /* bannerNotify@2x.png */,
+				9FC9E1661A1AE6EA00FCD713 /* bannerSuccess.png */,
+				9FC9E1671A1AE6EA00FCD713 /* bannerSuccess@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +264,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC9E16A1A1AE6EA00FCD713 /* bannerAlert.png in Resources */,
 				9F499D191A16BC960032FECE /* Main.storyboard in Resources */,
+				9FC9E16E1A1AE6EA00FCD713 /* bannerNotify.png in Resources */,
+				9FC9E1711A1AE6EA00FCD713 /* bannerSuccess@2x.png in Resources */,
+				9FC9E16D1A1AE6EA00FCD713 /* bannerFailure@2x.png in Resources */,
+				9FC9E16F1A1AE6EA00FCD713 /* bannerNotify@2x.png in Resources */,
+				9FC9E16C1A1AE6EA00FCD713 /* bannerFailure.png in Resources */,
 				9F499D1E1A16BC960032FECE /* LaunchScreen.xib in Resources */,
+				9FC9E1701A1AE6EA00FCD713 /* bannerSuccess.png in Resources */,
 				9F499D1B1A16BC960032FECE /* Images.xcassets in Resources */,
+				9FC9E16B1A1AE6EA00FCD713 /* bannerAlert@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F499D161A16BC960032FECE /* ViewController.m in Sources */,
+				9FC9E1681A1AE6EA00FCD713 /* ALAlertBanner.m in Sources */,
 				9F499D131A16BC960032FECE /* AppDelegate.m in Sources */,
+				9FC9E1691A1AE6EA00FCD713 /* ALAlertBannerManager.m in Sources */,
 				9F499D101A16BC960032FECE /* main.m in Sources */,
-				9F499D391A16BCBA0032FECE /* CallbackButton.m in Sources */,
 				9F499D381A16BCBA0032FECE /* SlidingViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +490,7 @@
 				9F499D2F1A16BC970032FECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F499D301A16BC970032FECE /* Build configuration list for PBXNativeTarget "SlideInViewTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +499,7 @@
 				9F499D321A16BC970032FECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
