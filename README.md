@@ -26,4 +26,4 @@ Currently all included in the same video.
 1. ALAlertBannerStyleNotify
 1. Stacking Views
 
-![](http://f.cl.ly/items/2u0A2X1t0B3000160W21/SlideInViewDemo.mov.gif)
+<img src="http://f.cl.ly/items/2u0A2X1t0B3000160W21/SlideInViewDemo.mov.gif" width="200px" style="margin-left: auto; margin-right: auto;"/>
